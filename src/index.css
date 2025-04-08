@@ -1,0 +1,23 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'DIN';  
+  src: url('./assets/fonts/DINCond-Bold-Regular.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'DIN', sans-serif;  
+  margin: 0;
+  padding: 0;
+}
+
+/* * {
+    outline: 1px solid red !important;
+    font-family: courier !important;
+} */
