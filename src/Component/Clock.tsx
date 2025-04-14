@@ -26,6 +26,19 @@ const Clock: React.FC<ClockProps> = (currentTime) => {
 
     return (
         <div className={styles.container}>
+            <div className={styles.background}
+                // children={
+         
+                // }
+            />
+            <div className={styles.ring} >
+                <div className={styles.ringShadow} />
+                <div className={styles.blackRing} />
+                <div className={styles.metalRing} />
+            </div>
+            <div className={styles.content}>
+          
+            </div>
 
         </div>
     );
