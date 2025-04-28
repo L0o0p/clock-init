@@ -91,12 +91,12 @@ function App() {
       justifyContent: 'center',
       alignItems: 'center'
     }}>
-    <div style={{
-      height: '472px',
-      width: '472px',
-      backgroundColor: 'green'
-    }}>
-      <Clock {...timeData}></Clock>
+      <div style={{
+        height: '480px',
+        width: '480px',
+        backgroundColor: 'green'
+      }}>
+        <Clock {...timeData}></Clock>
       </div>
     </div>
   )
