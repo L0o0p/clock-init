@@ -42,7 +42,13 @@ export const TIME_MAP: TimeMap = {
 
 
 function App() {
-
+  useEffect(() => {
+    try {
+      Loader?.postMessage(JSON.stringify({ loading: false }))
+    } catch (e) {
+      console.error(e)
+    }
+  }, [])
   const [timeData, setTimeData] = useState({
     date: '',
     month: '',
